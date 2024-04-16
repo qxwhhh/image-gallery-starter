@@ -100,10 +100,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          my family!
+          the world
         </a>
-        ,{' '}
-        for the pictures.
+        !{' '}
+        Congratulations for beauty!
       </footer>
     </>
   )
