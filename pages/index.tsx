@@ -64,8 +64,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               Use the action of pressing the shutter to freeze memories and use the lens to discover the beauty of the world.
+              <span>
+              <p class="text-white" href="https://twitter.com/Jockiery" target="_blank">Follow me</p>
+              </span>
             </p>
-            <a hover:text-white  href="https://twitter.com/Jockiery" target="_blank" rel="noreferrer">Follow me</a>
           </div>
 
           
