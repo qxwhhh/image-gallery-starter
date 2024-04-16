@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Jockiery' Phoalbum Wall</title>
+        <title>Jockiery's Phoalbum Wall</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -60,7 +60,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <Logo />
             
             <h1 className="mt-8 mb-4 text-base font-bold  tracking-widest">
-              Jockiery' Phoalbum Wall
+                  Jockiery's Phoalbum Wall            
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               Use the action of pressing the shutter to freeze memories and use the lens to discover the beauty of the world.
