@@ -30,7 +30,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>Jiang jiwei ShutterShowcase</title>
+        <title>Jockiery' Phoalbum Wall</title>
         <meta
           property="og:image"
           content="https://nextjsconf-pics.vercel.app/og-image.png"
@@ -59,10 +59,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Jiang jiwei ShutterShowcase
+              Jockiery' Phoalbum Wall
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              透过镜头，发现世界的美
+              Use the action of pressing the shutter to freeze memories and use the lens to discover the beauty of the world.
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
@@ -93,17 +93,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-        Thank you to{' '}
-        <a
-          href="https://vercel.com/cherrylover/notion-b/"
-          target="_blank"
-          className="font-semibold hover:text-white"
-          rel="noreferrer"
-        >
-          Jiang jiwei
-        </a>
-        ,{' '}
-        for the pictures.
+         Use the action of pressing the shutter to freeze memories and use the lens to discover the beauty of the world.
       </footer>
     </>
   )
