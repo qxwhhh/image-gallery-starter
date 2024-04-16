@@ -57,8 +57,6 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
-            
-            
             <Logo />
             
             <h1 className="mt-8 mb-4 text-base font-bold  tracking-widest">
@@ -68,6 +66,9 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               Use the action of pressing the shutter to freeze memories and use the lens to discover the beauty of the world.
             </p>
           </div>
+
+          <a class="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4" href="https://twitter.com/Jockiery" target="_blank" rel="noreferrer">Follow me</a>
+          
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
               key={id}
