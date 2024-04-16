@@ -66,7 +66,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               Use the action of pressing the shutter to freeze memories and use the lens to discover the beauty of the world.
             </p>
             
-            <a  z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4" href="https://twitter.com/Jockiery" target="_blank" rel="noreferrer">Follow me</a>
+            <a hover:bg-white/10 hover:text-white md:mt-4" href="https://twitter.com/Jockiery" target="_blank" rel="noreferrer">Follow me</a>
             
           </div>
 
