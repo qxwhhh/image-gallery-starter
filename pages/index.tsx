@@ -59,10 +59,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              Jiang jiwei ShutterShowcase
+              Flybirds!
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              透过镜头，发现世界的美
+              It is the tears of the earth that keep her smile in bloom.
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
