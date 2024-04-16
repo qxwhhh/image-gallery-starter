@@ -57,7 +57,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
-                      
+             <img alt="avatar" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" class="rounded-full z-10" style="color:transparent" srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.0c084444.jpg&amp;w=96&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.0c084444.jpg&amp;w=256&amp;q=75 2x" src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.0c084444.jpg&amp;w=256&amp;q=75" />         
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold  tracking-widest">
               Jockiery' Phoalbum Wall
