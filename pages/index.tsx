@@ -100,7 +100,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          Jiang jiwei
+          my family!
         </a>
         ,{' '}
         for the pictures.
