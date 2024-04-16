@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useRef } from 'react'
 import Bridge from '../components/Icons/Bridge'
-// import Logo from '../components/Icons/Logo'
+import Logo from '../components/Icons/Logo'
 import Modal from '../components/Modal'
 import cloudinary from '../utils/cloudinary'
 import getBase64ImageUrl from '../utils/generateBlurPlaceholder'
@@ -58,9 +58,8 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
 
-            <img alt="avatar" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" class="rounded-full z-10" style="color:transparent" src="https://res-console.cloudinary.com/dqmfeq3rk/media_explorer_thumbnails/9e248145b6151639343fc1284b3f7c90/detailed">
-            </img>
-            
+            <img alt="avatar" loading="lazy" width="80" height="80" decoding="async" data-nimg="1" class="rounded-full z-10" style="color:transparent" src="https://res-console.cloudinary.com/dqmfeq3rk/media_explorer_thumbnails/9e248145b6151639343fc1284b3f7c90/detailed"></img>
+                      
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               Jockiery' Phoalbum Wall
