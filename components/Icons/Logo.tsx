@@ -8,7 +8,7 @@ export default function Logo() {
       decoding="async"
       data-nimg="1" 
       className="rounded-full z-10" 
-      src="components/Icons/logo/logo.jpeg"
+      src="components/Icons/logo.jpeg"
     />
   );
 }
