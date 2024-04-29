@@ -1,6 +1,6 @@
 export default function Logo() {
   return (
-    < img 
+    <img 
       alt="avatar" 
       loading="lazy" 
       width="100" 
@@ -8,7 +8,7 @@ export default function Logo() {
       decoding="async"
       data-nimg="1" 
       className="rounded-full z-10" 
-      src="components/Icons/logo.jpeg"
+      src={require('./logo.jpeg')}
     />
   );
 }
