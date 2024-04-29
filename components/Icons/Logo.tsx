@@ -1,3 +1,4 @@
+import logoImage from './logo.jpeg';
 export default function Logo() {
   return (
     <img 
@@ -8,7 +9,7 @@ export default function Logo() {
       decoding="async"
       data-nimg="1" 
       className="rounded-full z-10" 
-      src={require('./logo.jpeg')}
+      src={logoImage}
     />
   );
 }
