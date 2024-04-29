@@ -1,4 +1,4 @@
-import logoImage from './logo.jpeg';
+import logoImage from 'components/Icons/logo.jpeg';
 export default function Logo() {
   return (
     <img 
